@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script type="text/javascript" src="../soft.js"></script>
+		<script type="text/javascript">
+			SoftScroll.activate({
+				duration: 500,
+				method: 'cubic-bezier',
+				points: [1.000, -0.600, 0.000, 1.650]
+			});
+		</script>
+		<style type="text/css">
+			.div {
+				padding: 400px 200px;
+				color: #FFF;
+				font-size: 40px;
+				text-align: center;
+			}
+			#menu {
+				position: fixed;
+				top: 5%;
+				left: 16px;
+				background-color: #ffc24d;
+				border: 2px dashed #ff8900;
+			}
+			#menu ul {
+				list-style: none;
+				margin: 8px 16px;
+				padding: 0px;
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="menu">
+			<ul>
+				<li>
+					<a href="#div1">Div 1</a>
+				</li>
+				<li>
+					<a href="#div2">Div 2</a>
+				</li>
+				<li>
+					<a href="#div3">Div 3</a>
+				</li>
+				<li>
+					<a href="#div4">Div 4</a>
+				</li>
+			</ul>
+		</div>
+		<div class="div" id="div1" style="background-color: #009;">Div 1</div>
+		<div class="div" id="div2" style="background-color: #090;">Div 2</div>
+		<div class="div" id="div3" style="background-color: #900;">Div 3</div>
+		<div class="div" id="div4" style="background-color: #990;">Div 4</div>
+	</body>
+</html>
