@@ -379,19 +379,7 @@
 	};
 	
 	var SoftScroll = {
-		about: {
-			NAME: 'SoftScroll.js',
-			VERSION: '1.0.0',
-			DATE: '2013-08-09 (yyyy-mm-dd)',	// yyyy-mm-dd
-			DESCRIPTION: 'A JavaScript framework for easy and soft page scrolling',
-			AUTHORS: [
-				{
-					NAME: 'Danilo Marcolino Valente',
-					EMAIL: 'dani_lovalente@hotmail.com'
-				}
-			],
-			COPYRIGHT: '(C)2013 by Danilo Marcolino Valente'
-		},
+		version: '1.0.0',
 		scroll: function (x, y, options) {
 			options = parseOptions(options, x, y, 0, 0);
 			scroll(options);
